@@ -1,0 +1,9 @@
+/*App.css*/
+
+#app{
+  
+  display:grid;
+  place-content: center;
+  height: 100vh;
+  background-color: rgb(48, 48, 48);
+}

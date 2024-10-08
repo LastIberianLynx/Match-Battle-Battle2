@@ -1,0 +1,23 @@
+
+/* Ensure the font is loaded */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/* PlayerPawn.css */
+.enemy-pawn {
+  right: 2.5%;
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%) scale(1); /* Reduced scale factor */
+  transform-origin: top center; /* Ensure scaling originates from the top left */
+  background-color: #ffdc9b;
+  padding: 10px; /* Adjusted padding to better fit the pixel art style */
+  border: 8px solid #3d1900;
+  border-radius: 0;
+  color: #3d1900; /* Text color to match the border */
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  box-shadow: 0 4px 8px rgb(109, 109, 109);
+  image-rendering: pixelated; /* Ensures images are rendered in a pixelated style */
+  width: auto; 
+  /* Adjust width to fit content */
+}
